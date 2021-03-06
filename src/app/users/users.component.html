@@ -1,0 +1,24 @@
+<table>
+    <caption> {{title}} </caption>
+    <tr>
+        <th> NOME </th>
+        <th> COGNOME </th>
+        <th> codicefiscale </th>
+        <th> email </th>
+        <th> telefono </th>
+        <th> provincia </th>
+        <th> età </th>
+    </tr>
+    
+    
+
+    <tr *ngFor='let user of Users' >
+        <td >{{user.name}}</td>
+        <td>{{user.lastname}}</td>
+        <td>{{user.fiscalcode}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.phone}}</td>
+        <td>{{user.province}}</td>
+        <td>{{user.age}}</td>
+    </tr>
+    </table>
