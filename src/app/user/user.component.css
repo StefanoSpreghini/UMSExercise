@@ -1,0 +1,24 @@
+td {
+    padding: 5px;
+    border: 1px solid #fff;
+    }
+    th{
+        background: black;
+        color: green;
+        padding: 5px;
+    }
+    td{
+        background: silver;
+        color: red;
+    
+    }
+    button{
+        padding: 5px;
+        border: 1px solid #222;
+        width: 120px;
+    }
+    button.delete{
+        background: white;
+        color: red;
+    }
+    
