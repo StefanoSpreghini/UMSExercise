@@ -15,7 +15,7 @@ td {
     button{
         padding: 5px;
         border: 1px solid #222;
-        width: 120px;
+        width: 80px;
     }
     button.delete{
         background: white;

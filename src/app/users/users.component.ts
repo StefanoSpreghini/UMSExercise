@@ -1,6 +1,6 @@
 import { PathLocationStrategy } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { UserService } from './user.service';
+import { UserService } from '../services/user.service';
 
 @Component({
     selector: 'app-users',
@@ -17,5 +17,7 @@ export class UsersComponent implements OnInit{
     ngOnInit(){
         this.users = this.service.getUsers();
     }
-    
+    onDeleteUser(user : any){
+        this.service.deleteUser(user);
+    }
 }
